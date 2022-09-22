@@ -185,10 +185,10 @@ box-sizing: 0 0 20px 0px rgba(0,0,0,0.2);
     position: absolute;
     top: 0;
     left: 0;
-    transition: 0.5s;
+    transition: 1s;
 }
 .layer:hover{
-    background: rgba(226,0,0,0.7);
+    background: rgba(226, 0, 0, 0.212);
 }
 .layer h3{
     width: 100%;

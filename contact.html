@@ -45,21 +45,21 @@
                 <div>
                     <i class="fa fa-home"></i>
                     <span>
-                        <h5>XYZ Road, ABC Buildings</h5>
-                        <p>Kurla, Maharashtra , IN</p>
+                        <h5>Mahatma Gandhi Road, Mantralaya, Fort, Mumbai, Maharashtra 400032</h5>
+                        
                     </span>
                 </div>
                 <div>
                     <i class="fa fa-phone"></i>
                     <span>
-                        <h5>+1 0983648757</h5>
+                        <h5>02222708725</h5>
                         <p>Monday to Saturday, 10AM to 6pm</p>
                     </span>
                 </div>
                 <div>
                     <i class="fa fa-envelope-o"></i>
                     <span>
-                        <h5>anmolgratis@gmail.com</h5>
+                        <strong><a href="https://mu.ac.in/university-of-mumbai-law-academyumla">mu.ac.in</a></strong>
                         <p>Email us your query</p>
                     </span>
                 </div>
@@ -70,7 +70,7 @@
                     <input type="email" name="email" placeholder="Enter email address" required>
                     <input type="text" name="subject" placeholder="Enter your subject" required>
                     <textarea rows="8" name="message" placeholder="Message" required></textarea>
-                    <button type="submit" class="hero-btn red-btn" >
+                    <button  onclick="handler()" class="hero-btn red-btn" >
                         Send Message
                     </button>
                 </form>
@@ -84,7 +84,10 @@
     <section class="footer">
         <h4>About Us</h4>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, vitae voluptatibus, sunt hic quas incidunt neque reiciendis aperiam beatae ipsam repudiandae.
+            The University of Mumbai is one of the oldest and premier Universities of India.<br/>
+            A unique of its kind, currently the University has 56 Departments, 12 specialized Centres,
+             781 Affiliated Colleges, 2 main Campuses, 2 sub Campuses, 2 Model Colleges,
+             and the ‘School of Engineering and Applied Sciences’ at Kalyan as the University’s own Engineering College.
         </p>
         <div class="icons">
             <i class="fa fa-facebook"></i>
@@ -107,6 +110,10 @@
         }
         function hideMenu(){
             navLinks.style.right = "-200px";
+        }
+        function handler(e){
+            e.preventDefault;
+            alert("Message sent successfully")
         }
     </script>
 
